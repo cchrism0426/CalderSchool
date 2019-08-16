@@ -1,0 +1,71 @@
+.root {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.temp-header {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.row {
+  max-width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.carousel-block {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.carousel-block > .col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.carousel {
+  max-width: 100%;
+  background-color: black;
+  margin-top: 2rem;
+}
+
+.carousel-inner > .carousel-item > img {
+  display: block;
+  margin: 0 auto;
+}
+
+.section-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 40%;
+}
+
+.section-photo {
+  text-align: center;
+  width: auto;
+  max-width: 60%;
+  overflow: hidden;
+}
+
+.testimonials-block > .col {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-block {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

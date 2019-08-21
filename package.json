@@ -10,7 +10,8 @@
     "react-dom": "^16.8.6",
     "react-multi-carousel": "^2.2.4",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "eslint-plugin-react": "^7.14.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,8 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint-plugin-react": "^7.14.3"
   }
 }

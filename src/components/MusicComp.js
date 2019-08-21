@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Jumbotron } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 class MusicComp extends Component {
@@ -10,7 +10,11 @@ class MusicComp extends Component {
   render() {
     return (
       <div>
-        <h1 class='temp-header'>MusicComp</h1>
+        <Jumbotron fluid className='temp-header'>
+          <Container>
+            <h1>Music Composition</h1>
+          </Container>
+        </Jumbotron>
       </div>
     );
   }
